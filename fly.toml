@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for jaytivities on 2023-09-26T10:50:10+01:00
+# fly.toml app configuration file generated for jaytivities on 2023-09-26T11:52:09+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -10,9 +10,9 @@ primary_region = "lhr"
   image = "jamesekene8/reactivities:latest"
 
 [env]
-  ASPNETCORE_URLS="http://+:8080"
-  Cloudinary__CloudName="dlapy1upp"
-  Cloudinary__ApiKey="417797143516273"
+  ASPNETCORE_URLS = "http://+:8080"
+  Cloudinary__ApiKey = "417797143516273"
+  Cloudinary__CloudName = "dlapy1upp"
 
 [http_service]
   internal_port = 8080
