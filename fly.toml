@@ -13,6 +13,7 @@ primary_region = "lhr"
   ASPNETCORE_URLS = "http://+:8080"
   Cloudinary__ApiKey = "417797143516273"
   Cloudinary__CloudName = "dlapy1upp"
+  Facebook__AppId="6663795947048466"
 
 [http_service]
   internal_port = 8080

@@ -23,7 +23,7 @@ namespace API.Extensions
 				{
 					policy.AllowAnyHeader().AllowAnyMethod()
 					.AllowCredentials()
-					.WithOrigins("http://localhost:3000");
+					.WithOrigins("http://localhost:3000", "https://localhost:3000");
 				});
 			});
 
