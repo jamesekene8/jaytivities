@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@greatsumini/react-facebook-login": "^3.3.3",
     "@microsoft/signalr": "^7.0.11",
     "@types/react-calendar": "^4.1.0",
     "@types/react-datepicker": "^4.15.0",
@@ -33,6 +34,7 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "uuid": "^9.0.0",
+    "vite-plugin-mkcert": "^1.16.0",
     "yup": "^1.2.0"
   },
   "devDependencies": {
